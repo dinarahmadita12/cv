@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.45fr 1fr;
+    width: 210mm;
+    height: 260mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.bag-satu{
+    padding: 40px 20px;
+    background-color: #d1d1d1;
+    width: 100%;
+    color: #313131;
+}
+
+.profil{
+    display: inline-flex;
+    margin: 0 -15px 5px 0;
+    width: 210px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid black;
+    background-image: url("foto2.jpg");
+    background-position: center;
+    background-size: 88%;
+}
+
+.container .bag-kontak {
+    margin-top: 10px;
+}
+
+.container .bag-kontak h2 {
+    color: #0d3b5c;
+}
+.container .bag-satu .bag-kontak>* {
+    width: 115%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.container .bag-satu .bag-kontak>* .icon-text {
+    display: inline-flex;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.container .bag-satu .bag-kontak>* .icon-text:hover{
+    background-color: #daeaf6;
+    color: #0d3b5c;
+}
+
+.container .bag-satu .skill {
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.container .bag-satu .skill h2{
+    margin-bottom: 10px;
+    color: #0d3b5c;
+}
+.container .bag-satu .skill ul li {
+    padding-top: 5px;
+
+}
+
+.container .bag-dua {
+    background-color: #e1dbd6;
+    padding: 30px 20px;
+}
+
+.container .bag-dua .nama {
+    color: #818380;
+    font-size: 30px;
+}
+
+.container .bag-dua .nama h5 {
+    font-size: 28px;
+    color: #0d3b5c;
+}
+
+.container .bag-dua .bag-deskripsi {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.container  h5{
+    color: #0d3b5c;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.container .bag-dua .pendidikan {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 8px;
+}
+.container .bag-dua .pendidikan .pend{
+    display: inline-block;
+    width: 70%;
+    line-height: 35px;
+    margin-left: 25px;
+}
+
+.container .bag-tiga h5 {
+    color: #0d3b5c;
+    margin-top: 20px;
+}
+
+.container .bag-tiga .bag-pengalaman {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.container .bag-tiga .bag-pengalaman .pengalaman {
+    display: inline-flex;
+    margin: 10px 20px 0 0;
+}
+
+.container .bag-tiga .bag-pengalaman ul li {
+    margin-left: 50px;
+    line-height: 25px;
+}
